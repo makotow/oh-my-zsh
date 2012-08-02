@@ -23,12 +23,14 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/
 #=============================
 # source z.sh
 #=============================
+if [ -f /usr/local/Cellar/z/1.1/etc/profile.d/z.sh ]; then
 _Z_CMD=j
 #source ~/z/z.sh
-source /usr/local/Cellar/z/1.1/etc/profile.d/z.sh
-precmd() {
-  _z --add "$(pwd -P)"
-}
+   source /usr/local/Cellar/z/1.1/etc/profile.d/z.sh
+   precmd() {
+     _z --add "$(pwd -P)"
+   }
+fi
 
 #=============================#
 # command-line stack

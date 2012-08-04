@@ -9,18 +9,6 @@ export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/
 #=============================
-# source auto-fu.zsh
-#=============================
- # if [ -f ~/.oh-my-zsh/custom/auto-fu.zsh/auto-fu.zsh ]; then
- #     source ~/.oh-my-zsh/custom/auto-fu.zsh/auto-fu.zsh
- #     function zle-line-init () {
- # 	      auto-fu-init
- #     }
- #     zle -N zle-line-init
- #     zstyle ':completion:*' completer _oldlist _complete
- # fi
-
-#=============================
 # source z.sh
 #=============================
 if [ -f /usr/local/Cellar/z/1.1/etc/profile.d/z.sh ]; then

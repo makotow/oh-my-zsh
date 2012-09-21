@@ -1,6 +1,6 @@
 ##
 
-export EDITOR=emacsclient
+export EDITOR=emacs
 export PAGER=less
 export LESS='-R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'

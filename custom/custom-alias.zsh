@@ -16,7 +16,7 @@ alias lsal='ls -al'
 # path priority
 ###############################
 alias mvn='/usr/local/bin/mvn'
-alias emacs='/usr/local/Cellar/emacs/24.1/Emacs.app/Contents/MacOS/Emacs'
+alias emacs='/usr/local/Cellar/emacs/24.2/Emacs.app/Contents/MacOS/Emacs'
 #alias play='~/bin/libexec/play/play'
 ###############################
 # cover mistype

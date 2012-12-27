@@ -5,7 +5,9 @@ export PAGER=less
 export LESS='-R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 export LV='-Ou8 -c'
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.7.0_10.jdk/Contents/Home/
+export LANG=ja_JP.UTF-8
+
 
 # 3秒以上かかった処理は詳細表示
 REPORTTIME=3

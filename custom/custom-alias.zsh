@@ -4,14 +4,13 @@
 # Alias configuration
 #  expand aliases before completing
 ###############################
-alias ls='ls -GF'
+alias ls='ls -GFv'
 alias lsal='ls -al'
 
 ###############################
 # path priority
 ###############################
 alias mvn='/usr/local/bin/mvn'
-alias emacs='/usr/local/Cellar/emacs/24.2/Emacs.app/Contents/MacOS/Emacs'
 
 ###############################
 # cover mistype
@@ -26,7 +25,8 @@ alias df='df -h'
 alias dir='ls -l'
 alias du='du -h'
 alias grep='grep --color'
-alias j="jobs -l" jobs='jobs -l'
+alias j="jobs -l"
+alias jobs='jobs -l'
 alias mv='mv -i'
 alias rm='rm -i'
 alias whence='type -a'

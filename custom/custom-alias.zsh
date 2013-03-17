@@ -32,7 +32,7 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias whence='type -a'
 alias where="command -v"
-
+alias e='subl'
 # global aliases
 alias -g L='|less'
 alias -g H='|head'

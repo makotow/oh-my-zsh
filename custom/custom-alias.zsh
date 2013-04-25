@@ -32,6 +32,7 @@ alias rm='rm -i'
 alias whence='type -a'
 alias where="command -v"
 alias e='subl'
+alias diff='colordiff'
 # global aliases
 alias -g L='|less'
 alias -g H='|head'

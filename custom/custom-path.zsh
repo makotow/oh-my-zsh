@@ -12,3 +12,6 @@ path=(
 #echo $path
 typeset  -U path
 export path
+
+# fpath
+#fpath=(/usr/local/share/zsh-completions $fpath)

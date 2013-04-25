@@ -16,7 +16,9 @@ REPORTTIME=3
 #=============================
 # source z.sh
 #=============================
-. `brew --prefix`/etc/profile.d/z.sh
+if which brew > /dev/null;then
+   . `brew --prefix`/etc/profile.d/z.sh
+fi
 
 #=============================#
 # command-line stack

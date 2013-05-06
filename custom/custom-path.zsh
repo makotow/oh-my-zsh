@@ -3,7 +3,7 @@ setopt nonomatch
 ## path
 path=(
        $JAVA_HOME/bin(N-/) \
-       /usr/local/bin \
+       /usr/local/bin(N-/) \
        $HOME/bin(N-/) \
        $HOME/.cabal/bin(N-/) \
        $path \

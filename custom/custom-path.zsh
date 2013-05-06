@@ -2,10 +2,10 @@ setopt nonomatch
 
 ## path
 path=(
-       $JAVA_HOME/bin \
+       $JAVA_HOME/bin(N-/) \
        /usr/local/bin \
-       $HOME/bin \
-       $HOME/.cabal/bin \
+       $HOME/bin(N-/) \
+       $HOME/.cabal/bin(N-/) \
        $path \
 )
 
@@ -14,4 +14,5 @@ typeset  -U path
 export path
 
 # fpath
-fpath=(/usr/local/share/zsh-completions $fpath)
+fpath=(/usr/local/share/zsh-completions(N-/) $fpath)
+

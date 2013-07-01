@@ -6,6 +6,7 @@ path=(
        /usr/local/bin(N-/) \
        $HOME/bin(N-/) \
        $HOME/.cabal/bin(N-/) \
+       $HOME/.vim/bundle/powerline/scripts(N-/) \ # for powerline
        $path \
 )
 

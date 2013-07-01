@@ -1,6 +1,6 @@
 ##
 
-#export EDITOR="emacsclient"
+
 export PAGER=less
 export LESS='-R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
@@ -34,3 +34,12 @@ if which rbenv > /dev/null;then
     eval "$(rbenv init -)";
     . $RBENV_ROOT/completions/rbenv.zsh
 fi
+
+
+#=====================#
+# powerline for zsh 
+#=====================#
+#export POWERLINE_REPOSITORY=$HOME/.vim/bundle/powerline 
+#if [[ -r $POWERLINE_REPOSITORY/powerline/bindings/zsh/powerline.zsh ]]; then
+#    . $POWERLINE_REPOSITORY/powerline/bindings/zsh/powerline.zsh
+#fi

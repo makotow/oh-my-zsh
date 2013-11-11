@@ -41,7 +41,6 @@ fi
 #export POWERLINE_REPOSITORY=$HOME/.vim/bundle/powerline 
 #if [[ -r $POWERLINE_REPOSITORY/powerline/bindings/zsh/powerline.zsh ]]; then
 #    . $POWERLINE_REPOSITORY/powerline/bindings/zsh/powerline.zsh
-<<<<<<< HEAD
 #fi
 #
 #
@@ -65,6 +64,3 @@ function do_enter() {
 }
 zle -N do_enter
 bindkey '^m' do_enter
-=======
-#fi
->>>>>>> 9aa6a1b64138bacb13e4d82a677111648748180b
